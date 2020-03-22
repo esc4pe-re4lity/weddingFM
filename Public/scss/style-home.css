@@ -1,0 +1,110 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2 avr. 2018, 08:56:52
+    Author     : Fiamma
+*/
+
+/* //////////--------- HOME -------------/////////// */
+/* ----- HOME - HEADER ------ */
+body
+{
+    margin: 0;
+    font-family: calibri;
+    border-left: 50px solid #2f3136;
+    border-right: 50px solid #2f3136;
+}
+#home-nav
+{
+    background-color: #1e2124;
+    width: 100px;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    padding: 50px 10px;
+    box-sizing: border-box;
+}
+#home-nav ul
+{
+    list-style: none;
+    padding: 0;
+}
+#home-nav a
+{
+    display: inline-block;
+    height: 80px;
+}
+#home-nav img
+{
+    height: 80px;
+    width: auto;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+/* ----- HOME - ABOUT ME ------ */
+#home-section1
+{
+    background-color: #393d42;
+    height: 800px;
+    color: #ebebeb;
+}
+.aboutMe
+{
+    display: flex;
+    margin: auto;
+}
+.aboutMe img
+{
+    width: 500px;
+    height: 500px;
+    padding: 50px 50px 0 0;
+    border-left: 50px solid #2f3136;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+.aboutMe .fadeOut
+{
+    opacity: 0;
+}
+#aboutMe-text
+{
+    margin: 50px;
+}
+
+
+/* ----- HOME - ADVENTURE TIME SHOP ------ */
+#adventureTimeShop
+{
+    display: flex;
+    justify-content: space-around;
+}
+#adventureTimeShop-text
+{
+    width: 30%;
+    margin: 30px;
+}
+#adventureTimeShop-text h2
+{
+    font-size: 2em;
+    text-align: center;
+}
+#adventureTimeShop-text p
+{
+    font-size: 1.2em;
+    line-height: 1.5;
+    text-align: justify;
+}
+#adventureTimeShop-image
+{
+    width: 60%;
+    margin: 30px;
+}
+#adventureTimeShop-image img
+{
+    width: 90%;
+    height: auto;
+}
